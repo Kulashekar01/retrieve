@@ -7,7 +7,7 @@ if (isset($_GET['roll_no'])) {
     $servername = "localhost";
     $username = "root";
     $password = "";
-    $dbname = "registrations";
+    $dbname = "database name";
 
     $conn = new mysqli($servername, $username, $password, $dbname);
 
